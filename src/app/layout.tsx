@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "MCP Pages",
-  description: "MCP Services Network for Next-Gen AI Agent Development",
+  description: "MCP Network for Next-Gen AI Agents",
 };
 
 export default function RootLayout({
