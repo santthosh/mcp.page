@@ -1,4 +1,3 @@
-import { Button } from '@/components/Button';
 import { CountdownTimer } from '@/components/CountdownTimer';
 
 export default function Home() {
