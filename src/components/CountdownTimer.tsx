@@ -35,7 +35,7 @@ export const CountdownTimer = () => {
 
   return (
     <div className="bg-gray-800 rounded-lg p-6 mb-8">
-      <h3 className="text-xl font-semibold text-white mb-4 text-center">🚀 Launching alpha in..</h3>
+      <h3 className="text-xl font-semibold text-white mb-4 text-center">🚀 Get ready - Alpha launches in...</h3>
       <div className="flex gap-4 justify-center">
         <div className="text-center">
           <div className="text-3xl font-bold text-white">{timeLeft.days}</div>
