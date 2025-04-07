@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="z-10 w-full p-8 pb-0">
-        <h1 className="text-4xl font-bold mb-4">MCP Pages</h1>
-        <h2 className="text-xl mb-6">MCP Network for Next-Gen AI Agents</h2>
+        <h1 className="text-4xl font-bold mb-4">Cloud MCP</h1>
+        <h2 className="text-xl mb-6">Centralized Network of MCP Servers</h2>
         <CountdownTimer />
       </div>
       <div className="flex-1 w-full relative m-4">

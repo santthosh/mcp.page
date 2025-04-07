@@ -1,11 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 export const CountdownTimer = () => {
-  const [secondsLeft, setSecondsLeft] = useState(15);
-  const router = useRouter();
+  const [secondsLeft, setSecondsLeft] = useState(10);
 
   useEffect(() => {
     if (secondsLeft === 0) {
@@ -23,7 +21,7 @@ export const CountdownTimer = () => {
   return (
     <div className="bg-gray-800 rounded-lg p-6 mb-8">
       <h3 className="text-xl font-semibold text-white mb-4 text-center">
-        We are launching as "Cloud MCP", visit us at{' '}
+        We are launching as &quot;Cloud MCP&quot;, visit us at{' '}
         <a href="https://cloudmcp.dev" className="text-blue-400 hover:text-blue-300">
           https://cloudmcp.dev
         </a>
